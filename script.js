@@ -1,1 +1,0 @@
-//document("this is a js code")
