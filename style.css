@@ -1,0 +1,516 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    
+  }
+
+  html,body
+  {
+    height: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+ 
+  
+  /*all the anchors will not be underlineed*/
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  body{
+    background-color:#F5F5F5;
+    display: flex;
+
+    flex-direction:column;
+    margin: 0;
+    min-height:100vh;
+  
+  }
+  
+  
+  main{
+    flex-grow: 1;
+    /*text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    */
+  }
+  
+  footer{
+    background-color: #4c80d3;
+    flex-shrink: 0;
+    margin-top: 1%;
+  }
+  /*this is for titles*/
+  h3{
+    color: #192a46;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 0.3%;
+
+  }
+  
+  .project
+  {
+    
+    margin-bottom: 2%;
+
+  }
+  p{
+    color: #192a46;
+    margin-top: 2%;
+    font-family:'Arial', Helvetica, sans-serif;
+    line-height: 50px;
+    text-align: center;
+  }
+  
+  #profile{
+    max-width: 15em;
+    border-radius: 50%; 
+  }
+  
+  
+  #certificate{
+    max-width: 20em;
+    border-radius: 5%;
+  
+  }
+  
+  #quizcover{
+    max-width: 20em;
+    border-radius: 5%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 12px solid #1D2E49;
+  }
+  
+  .subheadlines{
+    color: #192a46;
+    /*margin-top: 2%;*/
+    /*--getting rid of this or not-margin-top: 1em;*/
+    /*padding-top: 2%;*/
+    padding-bottom: 2%;
+    
+  }
+
+  
+  /*text-decoration: underline; */
+  
+  
+  ul { 
+    list-style-type: none;
+    background-color:#4c80d3;
+    overflow: hidden;
+    padding: 1em;
+    color: #4c80d3;
+    font-family:'Arial', Helvetica, sans-serif;
+    text-align:center;
+    margin-bottom: 2%;
+  }
+  
+  /*li= list*/
+  li{
+    display: inline;
+  }
+  
+  li a {
+    text-decoration: none;
+    color:#192a46;
+    font-size:1.3e;
+    padding: 1em;
+  }
+  
+  li a:hover{
+  /* this is for when you hover over the nav bar*/
+    color: #F5F5F5;
+    transition: 0.5s;
+  }
+  
+  #video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 12px solid #1D2E49;*/
+    border-radius: 5%;
+    max-width: 30em;
+  
+  }
+  
+  #descriptive{
+    padding-top: 1em
+  }
+  
+  
+  /*button configurations general*/
+  button {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+   
+    color: #F5F5F5;
+    background-color:#4276cb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+    border: 2px solid #4276cb;
+  
+  
+  }
+
+  button:hover{
+    transition:0.2s;
+    transform: translateY(-5px);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     border-color: #29426b;
+
+  }
+    
+  
+  /*contact me tab start*/
+  .contacttitle{
+    color: #192a46;
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+  }
+  
+  .wrapper{
+    text-align: center;
+  }
+  
+  
+  
+  .icons{
+    width: 7%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #liaison{
+    text-decoration: none;
+    position:relative;
+    margin-bottom: 2em;
+    top: 50%;
+    color: white;
+  
+  }
+
+  
+  
+  /*responsive feautures*/
+  
+  .flex-item{
+    flex-basis: 100%;
+    margin: 0.8%;
+  }
+  img{
+    width: 100%;
+  
+  }
+  
+
+  
+  .footerContainer
+  {
+      width:100%;
+      padding: 70px 30px 20px;
+  }
+  .socialIcons
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .socialIcons a
+  {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius:50%;
+
+  }
+  .socialIcons a i
+  {
+    font-size: 2em;
+    color : black;
+    opacity: 0.9;
+
+  }
+  /*hover effects on social media icons*/
+  .socialIcons a:hover
+  {
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .socialIcons a:hover i
+  {
+      color: white;
+      transition: 0.5s;
+
+  }
+  .footerNav
+  {
+    margin: 30px 0;
+    
+  }
+  .footerNav ul     
+  {
+      display: flex;
+      justify-content:center;
+      list-style-type:none;
+  }
+  .footerNav ul li a
+  {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+  }
+  .footerNav ul li a:hover
+  {
+    opacity: 1;
+  }
+  .footerBottom
+  {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+  }
+  .footerBottom p
+  {
+    color: white;
+  }
+  .designer
+  {
+    opacity:0.9;
+    text-transform:uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+
+  @media screen and (max-width: 700px){
+    .flex-container{
+      flex-wrap: wrap;
+    }
+  
+    .footerNav ul
+    {
+      flex-direction: column; 
+    }
+    .footerNav ul li
+    {
+      width: 100%;
+      text-align: center;
+      margin: 10%;
+    }
+    .box
+    {
+      width:90%;
+      min-width: unset;
+      padding:15px;
+    }
+
+  }
+  /*make this centered, and more aesthetically pleaseing*/
+  .box
+  {
+    background-color: #f0f0f0;
+    border: 2px solid #ededed;
+    border-radius: 12px;
+    padding: 20px;
+    width: 85%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+    border: 2px solid #ccc;
+
+  }
+  
+
+  /* Styling the image */
+  .box img {
+    margin-right: 20px; /* Adds space between image and text */
+    margin-left:0;
+    width: 130px; /* Adjust image size as needed */
+    height: auto;
+    max-height: 140px;;
+    object-fit:contain;
+    
+  }
+
+  /* Style for the text */
+  .box p {
+    color: #192a46;
+    /*i want to get rid of the boder-->*/
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+
+ /*i am gonna usee the same characteristics from the box, but this one is gonna be for projects and descriptions
+ */
+ .box_hov
+ {
+  /*for projects boxes you want to hover on and they kinda come out*/
+    background-color: #ededed;
+    border: 2px solid #ededed;
+    border: 2px solid #ccc;
+
+    border-radius: 12px;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    min-width: 300px;
+    margin: 20px auto;
+    display: flex;
+    align-items: flex-start;
+    transition: transform 0.2s, box-shadow 0.2s;
+ }
+ .box_hov img {
+    margin-right: 20px; /* Adds space between image and text */
+    /*margin-left:0;*/
+    width: 130px; /* Adjust image size as needed */
+    height: auto;
+    max-height: 140px;;
+    object-fit:contain;
+  
+  
+ }
+ .box_hov-content h2
+ {
+  /*make an margin on top */
+  margin-top: 1.5%;
+  margin-bottom: 0.3%;
+  display: flex;
+  flex-direction: column;
+  color: #2b508d;
+ }
+ .box_hov-content .skills 
+ {
+  color: #1D2E49;
+  font-style: italic;
+  font-size: smaller;
+  padding-bottom: 1%;
+ }
+
+ .box_hov-content tex
+ {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+
+ }
+
+ .box_hov p
+ {
+    color: #192a46;
+    /*i want to get rid of the boder-->*/
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+
+ }
+ .box_hov:hover
+ {
+  /*making it so it hover*/
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  
+
+
+ }
+ 
+ .project_title
+ {
+  /*for the boxes with description for the index*/
+    color: #29426b;
+    margin-top: 1%;
+    /*--getting rid of this or not-margin-top: 1em;*/
+    padding-top: 1%;
+    padding-bottom: 2%;
+ }
+
+
+ .box_hov:hover .box_hov-content h2 {
+  text-decoration: underline;
+  transition: 0.7s;
+}
+
+/*project box*/
+/* New Project Box for projects (increased length, image on the left, title aligned to the left) */
+.project_box {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 10px;
+  width: 70%; /* Increase the box length */
+  max-width: 700px;
+  min-width: 300px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project_box img {
+  width: 50px; /* Keep the image smaller */
+  height: auto;
+  margin-right: 15px; /* Space between image and title */
+}
+
+.project_box-content {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+  align-items: center;
+  flex-grow: 1; /* Make the content fill the remaining space */
+}
+
+.project-title {
+  color: #2b508d;
+  font-size: 1.2em;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  text-align: left; /* Align title to the left */
+  margin: 0;
+}
+
+/* Hover effect for project_box */
+.project_box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project_box:hover .project-title {
+  text-decoration: underline;
+  transition: 0.7s;
+}
