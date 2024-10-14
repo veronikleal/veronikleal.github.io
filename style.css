@@ -124,14 +124,14 @@
   
   li a {
     text-decoration: none;
-    color:#c3d3eb;
+    color:#192a46;
     font-size:1.3e;
     padding: 1em;
   }
   
   li a:hover{
   /* this is for when you hover over the nav bar*/
-    color: #1D2E49;
+    color: #F5F5F5;
     transition: 0.5s;
   }
   
@@ -162,14 +162,19 @@
     outline: none;
    
     color: #F5F5F5;
-    background-color:#1D2E49;
+    background-color:#4276cb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2%;
+    border: 2px solid #4276cb;
   
   
   }
 
   button:hover{
-    color:#bfcce0;
     transition:0.2s;
+    transform: translateY(-5px);
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     border-color: #29426b;
 
   }
     
